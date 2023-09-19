@@ -1,0 +1,170 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+/* flex property nav*/
+.flex-nav{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav { 
+    background-color: #265ee9;
+    padding: .9rem 0 .9rem 0;
+}
+
+.left{
+    width: 20%;
+    text-align: left;
+}
+
+/* flex property links */
+.flex-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    width: 40%;
+    list-style-type:none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.right {
+    width: 20%;
+    text-align: right;
+}
+
+.right a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    padding: .5rem 1rem .5rem 1rem;
+}
+
+.right,
+.left,
+.links {
+    padding: 5px;
+}
+
+/* HERO */
+.front-container {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding: 2rem 0 2rem 0;
+}
+
+.front {
+    background-color: plum;
+    width: 50%;
+    min-height: 400px;
+    margin: 0 auto;
+    border: 2px dashed black ;
+}
+
+.fronthr {
+    border: 2px solid rgb(192, 246, 246);
+}
+
+/* MAIN */
+/* flex property section*/
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.first-sec > div{
+    padding: 2rem 0 2rem 0;
+}
+
+.even{
+    background-color: lightslategray;
+}
+
+.big{
+    background-color: rgb(0, 110, 255);
+    min-height: 700px;
+    width: 40%;
+    border: 2px dashed black;
+}
+
+.small {
+    background-color: rosybrown;
+    min-height: 700px;
+    width: 30%;
+    border: 2px dashed black;
+}
+
+.extrabig {
+    background-color: green;
+    border: 2px dashed black;
+    min-height: 700px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+/* flex property group*/
+footer {
+    background-color: black;
+    padding: 1rem 0 1rem 0;
+}
+
+.flex-group {
+    display: flex; 
+    justify-content: center;
+}
+
+.big-col {
+    background-color: rgb(215, 111, 111);
+    min-height: 700px;
+    width: 20%;
+    border: 2px dashed black;
+}
+.col {
+    background-color: rgb(28, 196, 140);
+    min-height: 500px;
+    width: calc(50% / 4);
+    border: 2px dashed white;
+}
+
+.foothr {
+    border: 1px solid white;
+    margin: 1rem 0 1rem 0;
+}
+
+/* flex property foot */
+.flex-foot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot {
+    background-color: aqua;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem 0 1rem 0;
+}
+
+button,
+.foot-logo {
+    background-color: rgb(215, 111, 111);
+    border: 1px dashed black;
+    padding: .2rem
+}
