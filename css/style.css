@@ -126,7 +126,7 @@ li a {
 }
 
 .first-section > div {
-    padding: 2rem 0 2rem 0;
+    padding: 5rem 0 2rem 0;
     text-align: left;
 }
 
@@ -139,8 +139,22 @@ li a {
     font-size: 1.2rem;
 }
 
+.wave-up{
+    display: block;
+    width: 100%;
+    filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(155deg) brightness(109%) contrast(93%);
+
+}
+
+.wave-down {
+    display: block;
+    width: 100%;
+    filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(155deg) brightness(109%) contrast(93%);
+    transform: scale(1,-1);
+}
+
 .even{
-    background-color: hsl(0deg 0% 96.47%);
+    background-color:#f6f6f6;
 }
 
 .big{
