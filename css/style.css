@@ -64,22 +64,47 @@ li a {
 }
 
 /* HERO */
-.front-container {
+.front {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding: 2rem 0 2rem 0;
 }
 
-.front {
-    background-color: plum;
-    width: 50%;
-    min-height: 400px;
+.front-container {
+    width: 58%;
+    min-height: 450px;
     margin: 0 auto;
-    border: 2px dashed black ;
+    text-align: center;
+    color: white;
 }
 
-.fronthr {
-    border: 2px solid rgb(192, 246, 246);
+.front-container h2 {
+    font-size: 3.2rem;
+    padding: 5rem 0 2rem 0;
+}
+
+.front-container p {
+    padding: 0 0 2rem 0;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.front-container a {
+    text-decoration: none;
+    border-radius: 1.7rem;
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+}
+
+.mac {
+    color: black;
+    background-color: white;
+}
+
+.browser {
+    color: white;
+    background-color: black;
 }
 
 /* MAIN */
