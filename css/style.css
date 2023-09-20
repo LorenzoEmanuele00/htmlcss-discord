@@ -11,6 +11,14 @@ img {
 }
 
 /* HEADER */
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
 /* flex property nav*/
 .flex-nav{ 
     display: flex;
@@ -31,7 +39,7 @@ nav {
 /* flex property links */
 .flex-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .links {
@@ -68,11 +76,11 @@ li a {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     padding: 2rem 0 2rem 0;
+    margin-top: 70px;
 }
 
 .front-container {
     width: 58%;
-    min-height: 450px;
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -94,7 +102,7 @@ li a {
     border-radius: 1.7rem;
     padding: 1rem 1rem 1rem 1rem;
     font-size: 1.2rem;
-    margin: 0 1rem;
+    margin: .5rem 1rem;
 }
 
 .mac {
@@ -143,7 +151,6 @@ li a {
     display: block;
     width: 100%;
     filter: invert(100%) sepia(5%) saturate(0%) hue-rotate(155deg) brightness(109%) contrast(93%);
-
 }
 
 .wave-down {
@@ -207,7 +214,7 @@ footer {
     width: 25%;
 }
 
-h3 {
+.big-col h3 {
     color: hsl(226.73deg 58.43% 65.1%);
     font-size: 1.8rem;
     padding: 2rem 0 1rem 0;
@@ -216,6 +223,7 @@ h3 {
 .language {
     padding-bottom: 1rem;
     font-size: .9rem;
+    color: white;
 }
 
 .ita {
@@ -226,9 +234,9 @@ h3 {
     padding-right: 1rem;
 }
 
-div i,
-footer p,
-footer li {
+.icons a,
+.list-cont a{
+    text-decoration: none;
     color: white;
 }
 
